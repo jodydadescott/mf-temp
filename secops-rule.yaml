@@ -9,7 +9,7 @@ data:
           logsDisabled: false
           object:
             - - '@org:cloudaccount=psdc-aws'
-              - '@org:group=ppm-eks'
+              - '@org:group=prisma-test-3'
               - '@org:tenant=836331078427331584'
               - sim-account=30
           observationEnabled: false
@@ -18,7 +18,7 @@ data:
       propagate: true
       subject:
         - - '@org:cloudaccount=psdc-aws'
-          - '@org:group=ppm-eks'
+          - '@org:group=prisma-test-3'
           - '@org:tenant=836331078427331584'
           - sim-account=10
 identities:

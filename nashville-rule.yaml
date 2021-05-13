@@ -6,7 +6,7 @@ data:
           logsDisabled: false
           object:
             - - '@org:cloudaccount=psdc-aws'
-              - '@org:group=ppm-eks'
+              - '@org:group=prisma-test-3'
               - '@org:tenant=836331078427331584'
               - '@org:kubernetes=nashville'
               - app=database
@@ -17,7 +17,7 @@ data:
           logsDisabled: false
           object:
             - - '@org:cloudaccount=psdc-aws'
-              - '@org:group=ppm-eks'
+              - '@org:group=prisma-test-3'
               - '@org:tenant=836331078427331584'
               - '@org:kubernetes=memphis'
               - app=backend
@@ -28,7 +28,7 @@ data:
           logsDisabled: false
           object:
             - - '@org:cloudaccount=psdc-aws'
-              - '@org:group=ppm-eks'
+              - '@org:group=prisma-test-3'
               - '@org:tenant=836331078427331584'
               - '@org:kubernetes=knoxville'
               - app=backend
@@ -41,7 +41,7 @@ data:
           logsDisabled: false
           object:
             - - '@org:cloudaccount=psdc-aws'
-              - '@org:group=ppm-eks'
+              - '@org:group=prisma-test-3'
               - '@org:tenant=836331078427331584'
               - '@org:kubernetes=nashville'
               - app=database
@@ -51,7 +51,7 @@ data:
       propagate: true
       subject:
         - - '@org:cloudaccount=psdc-aws'
-          - '@org:group=ppm-eks'
+          - '@org:group=prisma-test-3'
           - '@org:tenant=836331078427331584'
           - '@org:kubernetes=nashville'
           - app=database

@@ -1,4 +1,4 @@
-export APOCTL_NAMESPACE=/836331078427331584/psdc-aws/ppm-eks
+export APOCTL_NAMESPACE=/836331078427331584/psdc-aws/prisma-test-3
 export APOCTL_CREDS=/Users/jscott/.apoctl/default.creds
 export APOCTL_API=https://api.east-01.network.prismacloud.io
 
