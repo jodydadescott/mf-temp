@@ -1,0 +1,26 @@
+APIVersion: 0
+data:
+  networkrulesetpolicies:
+    - description: Explicitly deny from account 10 to account 30
+      disabled: true
+      name: SecOPS
+      outgoingRules:
+        - action: Reject
+          logsDisabled: false
+          object:
+            - - '@org:cloudaccount=psdc-aws'
+              - '@org:group=ppm-eks'
+              - '@org:tenant=836331078427331584'
+              - sim-account=30
+          observationEnabled: false
+          protocolPorts:
+            - any
+      propagate: true
+      subject:
+        - - '@org:cloudaccount=psdc-aws'
+          - '@org:group=ppm-eks'
+          - '@org:tenant=836331078427331584'
+          - sim-account=10
+identities:
+  - networkrulesetpolicy
+label: SecOPS CICD Rule
